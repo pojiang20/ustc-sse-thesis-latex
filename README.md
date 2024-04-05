@@ -1,6 +1,22 @@
 # ustc-sse-thesis-latex
 中国科学技术大学软件学院硕士论文latex模板，此模板是作者自己使用的，仅供参考。
 
+## 撰写流程建议
+个人建议流程：
+1. 用markdown格式完成各个模块文字内容
+2. 将markdown格式转换为tex格式
+3. 使用在线编辑器编译，进行内容的排版
+4. 导出文件
+
+**上述流程都使用git进行版本管理**
+
+## 相关资源
+- [毕业论文流程攻略](https://www.wolai.com/xiaomingstudent/6fxAUz2KqaxWtjWWWmGKsd)
+
+- 在线latex编辑器：[中科大Latex平台](https://latex.ustc.edu.cn/project) [overleaf](https://www.overleaf.com/project)
+
+- [研究生学位论文撰写手册](./研究生学位论文撰写手册.pdf)
+
 ## 使用说明
 #### 三线表
 ``
@@ -39,19 +55,3 @@ func main(){
 #### 注意项
 latex中的双引号应该如下：
 ``内容"
-
-## 撰写流程建议
-个人建议流程：
-1. 用markdown格式完成各个模块文字内容
-2. 将markdown格式转换为tex格式
-3. 使用在线编辑器编译，进行内容的排版
-4. 导出文件
-
-**上述流程都使用git进行版本管理**
-
-## 相关资源
-- [毕业论文流程攻略](https://www.wolai.com/xiaomingstudent/6fxAUz2KqaxWtjWWWmGKsd)
-
-- 在线latex编辑器：[中科大Latex平台](https://latex.ustc.edu.cn/project) [overleaf](https://www.overleaf.com/project)
-
-- [研究生学位论文撰写手册](./研究生学位论文撰写手册.pdf)
