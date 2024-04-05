@@ -1,15 +1,13 @@
 # ustc-sse-thesis-latex
-中国科学技术大学软件学院 硕士论文latex模板
+中国科学技术大学软件学院硕士论文latex模板，此模板是作者自己使用的，仅供参考。
 
-此模板是作者自己使用的，仅供参考。
-
-### 使用说明
+## 使用说明
 #### 三线表
 ``
 如\ref{tab:xx表}所示，xxx...
 ``
 
-``
+```
 \begin{table}[h!]
   \renewcommand{\arraystretch}{1.5}
   \centering
@@ -23,21 +21,24 @@
   \end{tabular}
   \label{tab:xx表}
 \end{table}
-``
+```
 - 1.5是字体和上下边界的距离
 - `m{5cm}`表示该列内容垂直居中并且最大长度为5cm，超出内容会换行
 
 #### 代码引用
-``\begin{lstlisting}
+```
+\begin{lstlisting}
 func main(){
     fmt.Println("hello")
 }
-\end{lstlisting}``
+\end{lstlisting}
+```
 
 代码块引用样式在ustcsetup.tex的\usepackage{listings}下面设置
 
 #### 注意项
-latex中的双引号应该是 ``内容" 的形式
+latex中的双引号应该如下：
+``内容"
 
 ## 撰写流程建议
 个人建议流程：
