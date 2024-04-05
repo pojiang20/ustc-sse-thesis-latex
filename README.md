@@ -52,6 +52,24 @@ func main(){
 
 代码块引用样式在ustcsetup.tex的\usepackage{listings}下面设置
 
+#### 引用
+在bib目录的ustc.bib文件下存放文献说明
+```
+@article{knuth84,
+  author     = {Donald E. Knuth},
+  title      = {Literate Programming},
+  journal    = {The Computer Journal},
+  year       = {1984},
+  number     = {2},
+  volume     = {27},
+  pages      = {97--111},
+}
+```
+在正文使用下面格式，即可自动对文献进行编号。
+```
+这是一段引用\cite{knuth84}
+```
+
 #### 注意项
 latex中的双引号应该如下：
 ``内容"
